@@ -28,7 +28,7 @@ def merge_pdfs_function():
     pdfs=list(selected_pdfs.get(0, tk.END))
 
     if not pdfs:
-        messagebox.showerror("Error", "Re DHEECH*D ke PDF to Select kar")
+        messagebox.showerror("Error", "Kindly select the PDF files.")
         return;
 
     # Initialize the writer
